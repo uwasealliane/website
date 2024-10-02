@@ -1,0 +1,683 @@
+<DOCTYPE html>
+<html>
+<center>
+<title> HTML </title>
+<body>
+<h1> HTML </h1>
+</center>
+<center><h3>What is HTML </h3></center>
+<p>HTML is the standard markup language for creating Web pages,it describes the structure of a Web page, and it consists of a series of elements. The elements tell the browser how to display the content.
+</p>
+
+<center><h3> What does HTML satnd for. </h3></center>
+<p>HTML stands for Hyper Text Markup Language. </p>
+
+<center><h3>Difference between HTML and XHTML.</h3></center>
+<table border="1" cellpadding="10" style="border-collapse:collapse;width:80%;height:50%"> 
+<tr>
+<th></th>
+<th>HTML</th>
+<th>XHTML</th>
+</tr>
+
+<tr>
+<th>1. Syntax Rules.</th>
+<td> Flexible, lenient with errors, tags can be unclosed.</td>
+<td>Strict, follows XML rules, requires all tags to be properly closed.</td>
+</tr>
+
+<tr>
+<th>2. Case Sensitivity.</th>
+<td>Case-insensitive tags.</td>
+<td>Case-sensitive tags and attributes (lowercase only).</td>
+</tr>
+
+<tr>
+<th>3. Document Type Declaration.</th>
+<td>Simple (!DOCTYPE html).</td>
+<td> Complex declaration required.</td>
+</tr>
+
+<tr>
+<th>4. Empty Elements.</th>
+<td>No need for closing slashes in empty tags.</td>
+<td>Empty tags must end with a slash (e.g., (img/))</td>
+</tr>
+
+<tr>
+<th>5. Error Handling.</th>
+<td> Browsers are forgiving of errors.</td>
+<td>Strict error handling, pages won’t render if there are errors.</td>
+</tr>
+
+<tr>
+<th>6. Media Type.</th>
+<td> text/html.</td>
+<td>application/xhtml+xml (sometimes text/html).</td>
+</tr>
+
+<tr>
+<th>7. Backward Compatibility.</th>
+<td>Widely used, more compatible with various browsers.</td>
+<td>Stricter, mainly used for XML-like precision.</td>
+</tr>
+
+</table>
+
+<center><h3>The basic building blocks of an HTML document?</h3>
+<img src="C:\Users\Lenovo\OneDrive\Desktop\web disgn\images\blocks.PNG">
+
+<h3>Steps to create a hyperlink in HTML</h3></center><ol>
+
+<li><h4>Start with the &lta&gt Tag:</h4></li>Use the &lta&gt (anchor) tag to define the hyperlink.
+
+<li><h4>Set the href Attribute:</h4></li> The href attribute specifies the URL or the path to the resource you want to link to. For example, href="https://www.example.com".
+
+<li><h4>Add Link Text:</h4></li> Place the text you want to display as the link between the opening and closing &lta&gt tags.
+
+<li><h4>Close the &lta&gt Tag:</h4></li> End the hyperlink with the closing &lt/a&gt tag.</ol>
+
+<h4>Example: </h4>
+
+<center><a href="https://youtu.be/C9W2wN69An4?si=3_6ZjKCSsuiuQdPY">Visit this Website to learn more</a>
+</center>
+
+<h3>The purpose of the "alt" attribute in the HTML "img" tag</h3><ol>
+
+<li><h4>Accessibility:</h4></li> Describes the image for screen readers.
+<li><h4>Fallback:</h4></li> Displays text if the image fails to load.
+<li><h4>SEO:</h4></li> Helps search engines understand the image content.
+<li><h4>Context:</h4></li> Provides information for users with images disabled or using text-only browsers.
+
+
+<h4>Example</h4>
+<img src=""style="width:50%;height:50%" alt="">
+</ol>
+
+<h3>The purpose of the "doctype" declaration in HTML</h3>
+
+<p><ol>The &lt!DOCTYPE&gt declaration in HTML is used to specify the version of HTML that the document is written in. It helps the browser render the page correctly by ensuring that it interprets the HTML according to the specified standard.</ol></p>
+
+<ol><h4>Example</h4>
+<p>&lt!DOCTYPE html&gt: tells the browser that the document is HTML5, which is the current standard</p></ol>
+
+<h3>The difference between HTML elements and HTML tags</h3>
+
+<ol><h4><li>HTML Tags:</h4></li> Tags are the building blocks of HTML. They are used to define the start and end of an HTML element. Tags are written using angle brackets.
+<ul>
+<p><li>&ltp&gt is a start tag.</p></li>
+<p><li>&lt/p&gt is an end tag.</p></li>
+</ul>
+<p>Tags themselves are not visible on the web page but are used by the browser to interpret and render content.</p>
+
+<h4><li>HTML Elements</h4></li>: An element is the complete set of content that includes the start tag, the end tag, and any content in between. 
+<ul>
+<p><li>&ltp&gtThis is a paragraph.&lt/p&gt is an HTML element.</li></p>
+</ul>
+<p>This element includes the start tag &ltp&gt, the end tag &lt/p&gt, and the text "This is a paragraph." that it encloses</p></ol>
+
+<h3>How to add comments in HTML?</h3>
+<p><ol>Anything between &lt!-- and --&gt will be treated as a comment and will not be rendered in the browser. Comments are useful for adding notes or explanations in your code.</p></ol>
+
+<h3>The significance of the "head" section in an HTML document?</h3>
+<p><ol>In an HTML document, the &lthead&gt section is crucial for providing meta-information about the document. This section is placed between the &lthtml&gt and &ltbody&gt tags and typically contains elements that are not directly displayed on the page but are essential for defining the document's structure and behavior.</p></ol>
+
+<h3>How to define headings in HTML?</h3>
+<p><ol>In HTML, headings are defined using the &lth1&gt through &lth6&gt tags. These tags represent six levels of headings, with &lth1&gt being the highest or most important level, and &lth6&gt being the lowest or least important level.</p></ol>
+
+<ol>
+<h3>Example</h3>
+<h1>Headings</h1>
+<h2>Headings</h2>
+<h3>Headings</h3>
+<h4>Headings</h4>
+<h5>Headings</h5>
+<h6>Headings</h6>
+</ol>
+
+<h3>The role of the "title" element in HTML?</h3>
+
+<p><ol>
+In HTML, the &lttitle&gt element is used to define the title of a web page. This title appears in the browser's title bar or tab and is important for both user experience and search engine optimization (SEO). It provides a brief, descriptive name for the page, helping users understand the content of the page at a glance. The title should be concise and relevant to the page content</ol></p>
+
+<p><ol>The title for this page is HTML</ol></p>
+
+<h3>How to create an ordered list in HTML?</h3>
+
+<p><ol>To create an ordered list in HTML, you use the &ltol&gt (ordered list) element. Each item in the list is represented by the &ltligt (list item) element.</ol></p>
+
+<h3><ol>Example :</ol></h3>
+<ol>
+<li>Coding</li>
+<li>Sorting</li>
+<li>Programing</li>
+ </ol>
+
+<h3>The different types of form elements in HTML?</h3>
+<ol>
+<li>Text Input:  &ltinput type="text"&gt - A single-line text field.</li>
+<li>Password Input:  &ltinput type="password"&gt - A field where the input is &ltli&gtobscured, used for passwords.</li>
+<li>Checkbox:  &ltinput type="checkbox"&gt - Allows users to select one or more options from a set.</li>
+<li>Radio Button:  &ltinput type="radio"&gt - Allows users to select one option from a set.</li>
+<li>Submit Button:  &ltinput type="submit"&gt - Submits the form data to the server.</li>
+<li>Reset Button:  &ltinput type="reset"&gt - Resets the form fields to their default values.</li>
+<li>Button:  &ltbutton&gt - A generic button that can trigger various actions.</li>
+<li>Text Area:  &lttextarea&gt - A multi-line text input field.</li>
+<li>Select Menu:  &ltselect&gt - A dropdown menu for selecting one or more options.</li>
+<li>File Input:  &ltinput type="file"&gt - Allows users to select files to upload.</li>
+<li>Date Input:  &ltinput type="date"&gt - A field for selecting dates.</li>
+<li>Number Input:  &ltinput type="number"&gt - A field for entering numerical values.</li>
+<li>Range Input:  &ltinput type="range"&gt - A slider for selecting a value within a range.</li>
+<li>Email Input:  &ltinput type="email"&gt - A field for entering email addresses.</li>
+<li>URL Input:  &ltinput type="url"&gt - A field for entering URLs.</li>
+<li>Color Input:  &ltinput type="color"&gt - A field for selecting a color.</li>
+<li>Hidden Input:  &ltinput type="hidden"&gt - A field that is not visible to users but can hold data.</li>
+</ol>
+
+<h3>How do you embed an image in an HTML document?</h3>
+
+<ul>
+<p><li>src:  The path to the image file. This can be a local path or an external URL.</p></li>
+<p><li>alt:  A text description of the image, which is displayed if the image fails to load.</p></li>
+<p><li>width and height:  Specify the size of the image in pixels</p></li>
+</ul>
+
+<h3>The purpose of the "href" attribute in an anchor tag?</h3>
+<p><ol>The href (Hypertext Reference) attribute in an anchor (&lta&gt) tag specifies the destination URL or link that the anchor element points to. When the user clicks the anchor (often displayed as a hyperlink), the browser navigates to the URL defined in the href</ol></p>
+
+<p><ol>The href attribute can link to web pages, files, email addresses, anchors within the same page, or any other URL.</ol></p>
+
+<h3>How to create a line break in HTML?</h3>
+<p><ol>In HTML, you can create a line break using the &ltbr&gt tag. It is a self-closing tag, meaning it doesn't need a closing tag.</ol></p>
+
+<h3>The purpose of the "target" attribute in an anchor tag?</h3>
+
+<p><ol>The target attribute in an anchor (&lta&gt) tag specifies where to open the linked document when the user clicks on the link. It controls the behavior of the link in terms of which window or frame the linked content is displayed in</ol></p>
+
+<h3>The difference between block-level and inline elements in HTML</h3>
+<ol><table border="1" cellpadding="10" style="border-collapse:collapse;width:80%;height:50%"> 
+<tr>
+<th>Features</th>
+<th>Block-level element</th>
+<th>Inline element</th>
+</tr>
+
+<tr>
+<th>Default width</th>
+<td>Takes up the full width of the parent</td>
+<td>Takes up only as much width as needed</td>
+</tr>
+
+<tr>
+<th>Line behavior</th>
+<td>Starts on a new line</td>
+<td>Appears on the same line with others</td>
+</tr>
+
+<tr>
+<th>Content type</th>
+<td>Can contain both block and inline elements</td>
+<td>Can only contain inline elements </td>
+</tr>
+
+<tr>
+<th>Visual stacking</th>
+<td>Stacks vertically</td>
+<td>Flows horizontally within a line</td>
+</tr>
+
+</table>
+</ol>
+
+<h3>How to create a horizontal rule in HTML</h3>
+
+<p><ol>In HTML, you can create a horizontal rule (a line) using the &lthr&gt tag. This tag is self-closing in modern HTML, meaning you don't need an end tag</ol></p>
+
+<h3>The role of the "span" element in HTML?</h3>
+
+<p><ol>
+The &ltspan&gt element in HTML is an inline container used to group or style a small piece of text or other inline elements without altering the document's structure.
+
+<h3>Example</h3></p>
+<p> In 1993, HTML 2.0 was published as a formal specification by the <span style="color: blue;">Internet Engineering Task Force (IETF)</span> , introducing new features such as tables and image maps.</p></ol>
+
+<h3>How to create a checkbox in HTML</h3>
+
+<p><ol>To create a checkbox in HTML, you use the &ltinput&gt element with the type="checkbox" attribute.<br>
+
+<h3>Exapmle:</h3></ol></p>
+<ol>
+<form>
+  <label for="coding">Coding </label>
+  <input type="checkbox" >
+
+  <label for="programing">Programing</label>
+  <input type="checkbox" >
+
+  <label for="sorting">Sorting</label>
+  <input type="checkbox" >
+</form>
+</ol>
+
+<h3>The purpose of the "src" attribute in the "script" tag</h3>
+
+<p><ol>The src attribute in the &ltscript&gt tag specifies the URL of an external JavaScript file. When a web page includes a script with the src attribute, the browser fetches the JavaScript code from the specified location and executes it. This is useful for separating JavaScript code from the HTML content, making the code easier to manage and reuse across multiple pages</ol></p>
+
+<h3>How to create a dropdown menu in HTML</h3>
+
+<p><ol>Creating a dropdown menu in HTML is straightforward. You use the &ltselect&gt element to create a dropdown, and &ltoption&gt elements within it to define the options available in the menu. 
+
+<h3>Example:</h3></p></ol>
+
+<ol>
+<label for="fruit">Choose a fruit:</label>
+<select id="fruit" name="fruit">
+<option value="apple">Apple</option>
+<option value="banana">Banana</option>
+<option value="cherry">Cherry</option>
+<option value="date">Date</option>
+</select>
+</ol>
+
+<h3>The purpose of the "colspan" attribute in an HTML table</h3>
+
+<p><ol>
+The colspan attribute in an HTML table is used to specify how many columns a table cell should span. When you use colspan, the cell will extend across the specified number of columns, allowing you to create cells that span multiple columns within a table.
+
+<h3>Example:</h3></ol></p>
+<ol>
+<table border="1" style="border-collapse:collapse;width:80%;height:10%">
+ <tr>
+<th>Web desgine</th>
+<th>C program</th>
+<th colspan="2">Data structure</th>
+</tr>
+<tr>
+<td>HTML</td>
+<td>Array</td>
+<td>Doubly LL</td>
+<td>Single LL</td>
+</tr>
+</table>
+<p><ul><li>In this example, the cell with the text "Data structure" spans across two columns. </li></ul></p>
+</ol>
+
+<h3>How to add a background image to an HTML element</h3>
+<br><br><br><br>
+
+
+
+
+<h3>The purpose of the "action" attribute in an HTML form</h3>
+
+<p><ol>The action attribute in an HTML form specifies the URL where the form data should be sent when the form is submitted. It essentially tells the browser where to send the information entered into the form. If the action attribute is not provided, the form will submit to the same URL that the form is on, using the HTTP method specified by the method attribute (usually GET or POST)</ol></p>
+
+<ol><h3>Example:</ol></h3>
+<ol><form action="submit_form.php" method="post">
+  <input type="text" name="username">
+  <input type="submit" value="Submit">
+</form>
+</ol>
+
+<h3>How to add a video to an HTML document</h3>
+
+<ol>
+To add a video to an HTML document, you use the &ltvideo&gt element.
+<h3>Example:</h3>
+<body>
+    <video width="50%" height="50%" controls>
+        <source src="" type="MP4">
+        Your browser does not support the video tag.
+    </video>
+	
+</body>
+</ol>
+
+<h3>The purpose of the "disabled" attribute in an input field</h3>
+
+<ol>The disabled attribute in an HTML input field is used to make the input field non-interactive. When an input field has the disabled attribute, users cannot interact with it—they can't type into it, select it, or trigger any actions related to it. Additionally, a disabled input field will not be submitted with the form data when the form is submitted.
+
+<h3>Example: </h3>
+<input type="text" name="username" value="Danny Isingizwe" disabled>
+</ol>
+
+<p><ul><li>In this example, the input field for the username will be displayed on the page, but users won’t be able to modify it or submit its value. The field will also not be included in the form submission.</li></ul></p>
+
+</ol>
+
+
+<h3>How to create a form in HTML</h3>
+<ol>Creating a form in HTML is pretty straightforward.
+<h3>Example: </h3>
+<body>
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</ol>
+
+<h3>The purpose of the "placeholder" attribute in an input field</h3>
+
+<p><ol>The placeholder attribute in an HTML &ltinput&gt field is used to display a short hint or example of the expected value when the input field is empty. This text disappears once the user starts typing. Its purpose is to provide a visual cue to the user about the type of data they should enter, such as "Enter your email," "Search here," or "123-456-7890" for phone numbers.</ol></p>
+
+<ol><h3>Example:</h3>
+
+<input type="text" placeholder="Enter your name">
+
+<ul><li><p>This would show "Enter your name" in the input field until the user starts typing. The placeholder is purely a usability feature and has no impact on the actual value submitted in a form.</p></li></ul>
+
+</ol>
+
+<h3>How to create a hyperlink with an image in HTML</h3>
+
+<p><ol>To create a hyperlink with an image in HTML, you can use the &lta&gt (anchor) tag to wrap around the &ltimg&gt (image) tag. This way, the image becomes clickable, and clicking on it will take the user to the link specified in the &lta&gt tag's href attribute.</ol></p>
+
+<ol><h3>Example:</h3>
+
+<a href="">
+    <img src="" style="width:20%;height:20%" alt="Burger" />
+</a>
+</ol>
+
+<h3>The purpose of the "required" attribute in an input field</h3>
+
+<p><ol>
+The required attribute in an HTML &ltinput&gt field is used to indicate that the form field must be filled out before the form can be submitted. If a user tries to submit a form with an input that has the required attribute but is left empty, the browser will block the form submission and display an error message, prompting the user to fill in the field.</ol></p>
+
+<ol><h3>Example:</h3>
+
+<form>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <input type="submit">
+</form>
+
+<ul><li>In this case, the form will not submit unless the user provides a valid email in the input field.</ul></li>
+</ol>
+
+<h3>How to create a responsive layout in HTML</h3>
+
+<br><br><br><br>
+
+<h3>The purpose of the "charset" attribute in the "meta" tag</h3>
+
+<p><ol>
+The charset attribute in the &ltmeta&gt tag is used to specify the character encoding for an HTML document. Character encoding determines how characters are represented in bytes, which is crucial for rendering text correctly on different browsers and devices</ol></p>
+
+<ol><ul><li>Using the correct charset ensures consistent display and compatibility across different platforms</li>
+
+<li>It helps browsers interpret and display the page's content correctly, particularly for languages with special characters</li>
+</ul></ol>
+
+<h3>The purpose of the "autocomplete" attribute in an input field</h3>
+
+<p><ol>The autocomplete attribute in an HTML &ltinput&gt field is used to control whether a web browser should provide suggestions based on previously entered values for that particular input. It enhances user experience by allowing browsers to autofill the field with data that was previously submitted.</ol></p>
+
+<ol><h4>Here are the possible values for the autocomplete attribute:</h4>
+<ul>
+<h5>"on":</h5> Enables the browser's autocomplete feature, allowing the input field to display previously entered values that match the current input. This is the default behavior.
+<h5>"off":</h5> Disables the autocomplete feature for the input field, preventing the browser from offering suggestions based on previous inputs.
+<h5>Other specific values:</h5> You can also use specific values (e.g., "name", "email", "tel", "address", etc.) to tell the browser what kind of data is expected, enabling it to provide more accurate and relevant suggestions.</ul>
+
+<h3>Example:</h3>
+<input type="text" name="username" autocomplete="username">
+
+<ul><li>In this case, the browser will suggest previously used usernames when the user starts typing in the input field.</ul></li>
+
+</ol>
+
+<h3>How to create a button in HTML</h3>
+<p><ol>To create a button in HTML, you can use the &ltbutton&tg element or the &ltinput&tg element with the type="button" attribute. </ol></p>
+
+<ol>
+<h3>Example:</h3>
+<button>Click</button>
+
+<p>OR</p>
+
+<input type="button" value="Click">
+</ol>
+
+<h3>The purpose of the "nowrap" attribute in an HTML table</h3>
+
+<p><ol>
+The nowrap attribute in HTML was used to prevent the content of a cell (&lttd&gt or &ltth&gt) from automatically wrapping to the next line. When this attribute was applied, the browser would ensure that the text or other content inside the table cell would remain on a single line, expanding the width of the cell if necessary to accommodate the content.</ol></p>
+
+<h3>How to create a responsive image in HTML</h3>
+
+<ol>
+<p>To create a responsive image in HTML, you can use the img tag along with some CSS. Here's a simple way to make an image responsive:</p>
+<ul>
+<li>Use the img tag: Add your image with the img tag.</li>
+
+<li>Apply CSS: Use CSS to make the image scale with the size of its container.</li>
+</ul>
+</ol>
+
+<h3>The purpose of the "target" attribute in an anchor tag</h3>
+
+<ol>
+<p>The target attribute in an anchor (&lta&gt) tag specifies where to open the linked document. Here are the common values for the target attribute:</p>
+<ul>
+<li>self: Opens the link in the same frame or tab. This is the default behavior if the target attribute is not specified.</li>
+<li>blank: Opens the link in a new window or tab.</li>
+<li>parent: Opens the link in the parent frame. This is useful if the document is nested within frames or iframes.</li>
+<li>top: Opens the link in the full window, removing any frames or iframes.</li>
+</ul>
+
+<h3>Example:</h3>
+
+<a href="https://images.app.goo.gl/nxHfZ7if79Wf4R3EA" target="Burger">Visit Example</a>
+</ol>
+
+<h3>The purpose of the "placeholder" attribute in a textarea</h3>
+
+<p><ol>
+The placeholder attribute in a &lttextarea&gt element provides a hint or a short description of the expected input. It appears as grayed-out text inside the textarea when it's empty, and it disappears when the user starts typing. This helps users understand what kind of information they should enter without taking up space with static labels or instructions</ol></p>
+<ol>
+<h3>Example:</h3>
+<textarea placeholder="Enter your comments here..."></textarea>
+<p><ul><li>In this case, "Enter your comments here..." is the placeholder text that guides the user on what to write in the textarea</ul></li></p>
+</ol>
+
+<h3>The purpose of the "readonly" attribute in an input field</h3>
+
+<ol>
+<p>The readonly attribute in an HTML input field is used to make the input field non-editable by the user. When you apply this attribute to an &ltinput&gt element, users can see the value in the field but cannot change it. This can be useful for displaying data that should not be modified but still needs to be visible, such as user profile information or calculated results.</ol></p>
+<ol>
+<h3>Example:</h3>
+
+<input type="text" value="me" readonly>
+
+<p><ul><li>In this example, the input field will display "Gisele", but users won’t be able to alter its content.</ul></li></p>
+</ol>
+
+<h3>How to create a responsive video in HTML</h3>
+
+<ol>
+<p>Creating a responsive video in HTML typically involves using CSS to ensure that the video scales properly with different screen sizes.</p>
+
+<h3>Example:</h3>
+
+
+<video style="width:50%;height:50%" controls>
+  <source src="">
+  Your browser does not support the video tag.
+</video>
+
+
+<div class="5:41">
+    <video src="" style="width:50%;height:50%"controls></video>
+</div>
+</ol>
+
+<h3>How to embed audio in an HTML document</h3>
+
+<p><ol>
+To embed audio in an HTML document, you can use the &ltaudio&gt element.</ol></p>
+
+<ol>
+<h3>Example:</h3>
+
+<audio controls>
+  <source src="">
+  Your browser does not support the audio element.
+</audio>
+</ol>
+
+<h3>Advanced HTML Interview Questions and Answers</h3>
+
+<br><br><br><br>
+
+<h3>The purpose of the "cols" and "rows" attributes in the "textarea" tag</h3>
+<ol>
+<p>In the HTML &lttextarea&gt tag, the cols and rows attributes are used to define the visible size of the text area.</p>
+
+<h5>cols:</h5> Specifies the width of the text area in terms of the number of characters (columns) that can be displayed at a time.
+
+<h5>rows:</h5> Specifies the height of the text area in terms of the number of visible text lines (rows).
+
+<h3>Example:</h3>
+
+<textarea cols="40" rows="5"></textarea>
+</ol>
+
+<h3>The purpose of the "scope" attribute in an HTML table</h3>
+
+<ol>
+<p>The scope attribute in an HTML table is used to improve accessibility by defining the relationship between table cells and header cells. It is particularly useful for screen readers and helps users better understand the structure and data of the table.</p>
+
+<p>The scope attribute can be applied to &ltth&gt (table header) elements and specifies which cells the header applies to. It can take one of four values:</p>
+<ul>
+<li>col: The header applies to all cells in the column.</li>
+<li>row: The header applies to all cells in the row.</li>
+<li>olgroup: The header applies to all cells in a group of columns.</li>
+<li>rowgroup: The header applies to all cells in a group of rows</li>
+</ul>
+<h3>Examle:</h3>
+<table cellspacing="10">
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+    <th scope="col">Skills</th>
+  </tr>
+  <tr>
+    <td>javan</td>
+    <td>....</td>
+    <td>Cooking</td>
+  </tr>
+  <tr>
+    <td>favour</td>
+    <td>....</td>
+    <td>Sleeping</td>
+  </tr>
+</table>
+</ol>
+
+<h3>The purpose of the "rel" attribute in the "link" tag</h3>
+
+<p>55) How do you create a range input slider in HTML?</p>
+	<input type="range">
+	<p>56) What is the purpose of the "disabled" attribute in an HTML element?</p>
+	<ul><li>it is used to keep user from using the input element until some other<br>
+	     conditions are met(like selecting a checkbox etc).</li></ul>
+	<p>57) What is the purpose of the "maxlength" attribute in an input field?</p>
+	 <label>Names:</label><input type="text" maxlength="20%">
+	 <ul><li>gives the a maximum length to the field</li></ul>
+	<p>58) How do you create a numbered list in HTML?</p>
+	 <p>we use th ol tag for ordered or numbered list ex:languge i have learned</p>
+	 <ol>
+	  <li>HTML </li>
+	   <li>C</li>
+	    <li>C<sup>++</sup></li>
+	  </ol>
+	<p>59) What is the purpose of the "target" attribute in the "form" tag?</p>
+	<ul><li>specifies a name or a keyword that indicates where to display<br>the response that is received after submitting the form</li></ul>
+	<p>60) How do you create a multi-line text input field in HTML?</p>
+	 <textarea rows="20"cols="20"></textarea>
+	<p>61) What is the purpose of the "hidden" attribute in an HTML element?</p>
+	<ul><li>the hidden hidden attributeis used to indicate that the content of <br>an element should not be presented to the user.</li></ul>
+	<p style="color:red;">62) How do you set the background color of an HTML element?</p>
+	<p>63) How do you add a border to an HTML element?</p>
+	 <table border="1" style="border-collapse:collapse;">
+	  <tr>
+	   <th>Names</th>
+	    <th>Job Title</th>
+	   </tr>
+	   <tr>
+	    <td>Lorenzo</td>
+		 <td>Doctor</td>
+	   </tr>
+	   <tr>
+	    <td>Natalie</td>
+		 <td>Nurse</td>
+	   </tr>
+	 </table>
+	 
+	<p style="text-align:center;">64) How do you center-align text horizontally in an HTML element?</p>
+	<p style="font-family:verdana;">65) How do you set the font color of an HTML element?</p>
+	 
+	<p>66) What is the purpose of the HTML meta tag?</p>
+	 <ul><li>the meta tag is used to tell the search engines and those viewing  your site<br>
+	   more about your page and information it contains.</li></ul>
+	<p>67) What is the purpose of the HTML iframe tag?</p>
+	 <ul><li>the iframe tag loads another html page within the document.</li></ul>
+	<p>68) What is the purpose of the HTML header tag?</p>
+	 <ul><li>represents introductory  content. typically a group<br>
+	   of introductory or navigational aids.it contains<r>
+	   some heading elements but also a logo. </li></ul>
+	<p>69) What is the purpose of the HTML aside tag?</p>
+	 <ul><li>acts as supporting section of the document.</li></ul>
+	 <p>70) What is the role of the "canvas" element in HTML5?</p>
+	 <ul><li>the canvas elemnt is used to draw graphics, on the fly,via scripting</li></ul>
+	 <p>71) How do you create a progress bar with HTML and CSS?</p>
+	 <h3>My skills</h3>
+	 <p>HTML</p>
+	 <div class="container">
+	 <div class="skill html">60%</div>
+	 </div>
+	 <p>PHP</p>
+	 <div class="container">
+	 <div class="skill php">70%</div>
+	 </div>
+	 
+	 <p>72) What is the role of the "datalist" element in HTML5?</p>
+	 <ul><li>datalist element in html5 contains aset of options elements<br>
+	  that represent the permissible or recommended options available to choose <br>
+	  from within other controls.</li></ul>
+	 <p style="text-align:center;">73) How do you center align an HTML element?</p>
+	 <ul>
+	  <li></li>
+	 </ul>
+	 <p>74) What is the role of the "mark" element in HTML5?</p>
+	 <ul><li>mark element i used for marking a <mark>text</mark></li></ul>
+	 <p>75) How do you add a video background to an HTML element?</p>
+	<div id="video-container">
+	<video autoplay loop height="200">
+	<source src="video\y2mate.com - Stromae  Fils de joie Official Music Video_1080p.mp4" type="video/mp4">
+	<source src="video\y2mate.com - Stromae  Fils de joie Official Music Video_1080p.mp4" type="video/mp4">
+	<source src="video\y2mate.com - Stromae  Fils de joie Official Music Video_1080p.mp4" type="video/mp4">
+	your brpwser does not support HTML5 videos.</video>
+	<div class="tagline">
+	  <!-- <div>tag over the background video</div>-->
+	   </div>
+	 <p>76) What is the purpose of the "formnovalidate" attribute in an HTML form?</p>
+	 <ul><li>Formnonvalid signify that the form won't get validated on submit.</li></ul>
+	 <p>77) How do you embed a Google Map in an HTML document?</p>
+	 <ul>
+	  <li></li>
+	  </ul>
+	 <p>78) What is the purpose of the "datetime" attribute in the "time" element?</p>
+	 <ul><li> datetime atribute in the time element indicates time and date<br>
+	 of the element</li></ul>
+
+</body>
+</html>
